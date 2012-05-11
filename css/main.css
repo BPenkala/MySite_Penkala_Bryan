@@ -122,6 +122,10 @@ aside {
 	padding: 5px;
 }
 
+#profile ol {
+	list-style-type: none;
+}
+
 .profile {
 	-moz-column-count: 3;
 	padding: 5px;
