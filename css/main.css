@@ -1,12 +1,12 @@
 ﻿
-/* ---------Colors--------------- */
+/* ---------Main Colors--------------- */
 
 /*------red = #FF0000----- */
 /*------white = #FFFFFF--- */
 /*------grey = #C0C0C0-----*/
 /*------black = #000000----*/
 
-/* ---------Colors--------------- */
+/* ---------End Main Colors--------------- */
 
 
 /* ---Header Tag Styling---- */
@@ -128,7 +128,9 @@ aside {
 }
 
 .profile {
+	column-count: 3;
 	-moz-column-count: 3;
+	-webkit-column-count: 3;
 	padding: 5px;
 	background-color: #FFFFFF;
 }
