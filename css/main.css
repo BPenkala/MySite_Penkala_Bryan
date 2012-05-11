@@ -1,11 +1,11 @@
-/* ---------Main Colors--------------- */
+﻿/* ---------Main Colors--------------- */
 
 /*------red = #FF0000----- */
 /*------white = #FFFFFF--- */
 /*------grey = #C0C0C0-----*/
 /*------black = #000000----*/
 
-/* ---------End Main Colors--------------- */
+/* ---------End Main Colors--------------*/
 
 
 /* ---Header Tag Styling---- */
@@ -97,7 +97,8 @@ aside {
 	height: 381px;
 	color: #FFFFFF;
 	padding: .5em;
-	background: #959595;
+	background: #000000;
+	/*------Gradient displayed in browser but could not validate
 	background: -moz-linear-gradient(left,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 
 	53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%);
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#959595), 
@@ -110,7 +111,7 @@ aside {
 	background: -ms-linear-gradient(left,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 
 	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
 	background: linear-gradient(left,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 	
-	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);---------*/
 }
 
 /* ---End Main CTA Styling---- */
