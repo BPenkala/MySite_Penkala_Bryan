@@ -75,7 +75,7 @@ body {
 
 #nav li a {	
 	display: block;
-	padding: 8px 15px;
+	padding: 8px 17%;
 	text-decoration: none;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -243,8 +243,8 @@ footer {
 
 footer ul {
 		font-family: inherit;
-		list-style: none;
 		padding: 2% 0;
+		list-style-type: none;
 	}
  
 	footer li a {
@@ -252,7 +252,6 @@ footer ul {
 		padding: 1% 3%;
 		color: #FFFFFF;
 		text-decoration: none;
-		list-style-type: square;
 		line-height: 2em;
 		height: 2em;
 	}
@@ -341,7 +340,6 @@ footer ul {
 		color: #FFFFFF;
 		text-decoration: none;
 		list-style-type: none;
-		letter-spacing: 0.1em;
 		letter-spacing: 0.1em;
 		line-height: 2em;
 		height: 2em;
