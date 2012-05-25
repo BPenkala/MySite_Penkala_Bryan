@@ -38,11 +38,10 @@
 			Bulls</a></strong> to an NBA title.<br /> <br />
 			Derricks got what it takes to be an MVP.  Do you?<br /> <br /> <span><em>Sign 
 			up<strong> now </strong>for your MVP experience!</em></span></p><br />
-			<button type="button" class="button">Sign Up!</button> 
+			<button type="button" class="button">Sign Up!</button>
 		</div>
 	</aside>
 	<!-- profile article provides player information -->
-
 	<div>
 		<article id="profile">
 	    	<h3>Profile</h3>
@@ -74,30 +73,89 @@
 		</ol>
 		</article>
 	</div>
-		<!-- image gallery -->
-    	<div>
-        	<h3 id="images">Images</h3>
-        	<ul id="gallery"> 
-        		<li><a href="images/rose_1.jpg" title="Great dunk by DRose!"><img 
-        		src="images/rose_1.jpg" 
-        		alt="Great shot by DRose!"/></a></li>
-        		<li><a href="images/rose_2.jpg" title="DRose driving to the 
-        		basket!"><img src="images/rose_2.jpg" alt="DRose driving to the 
-        		basket!"/></a></li>
-        		<li><a href="images/rose_3.jpg" title="Too strong!"><img 
-        		src="images/rose_3.jpg" 
-        		alt="Nice layup!"/></a></li>
-        		<li><a href="images/rose_4.jpg" title="Determination"><img 
-        		src="images/rose_4.jpg" 
-        		alt="Determination!"/></a></li>
-			</ul>
+    <div>
+	<!-- image gallery -->
+        <h3 id="images">Images</h3>
+        <ul id="gallery"> 
+        	<li><a href="images/rose_1.jpg" title="Great dunk by DRose!"><img 
+        	src="images/rose_1.jpg" 
+        	alt="Great shot by DRose!"/></a></li>
+        	<li><a href="images/rose_2.jpg" title="DRose driving to the 
+        	basket!"><img src="images/rose_2.jpg" alt="DRose driving to the 
+        	basket!"/></a></li>
+        	<li><a href="images/rose_3.jpg" title="Too strong!"><img 
+        	src="images/rose_3.jpg" 
+        	alt="Nice layup!"/></a></li>
+        	<li><a href="images/rose_4.jpg" title="Determination"><img 
+        	src="images/rose_4.jpg" 
+        	alt="Determination!"/></a></li>
+		</ul>
+		<h3 id="membership">Membership Plans</h3>
     	</div>
     	<!-- membership sign up -->
-		<section id="wrapper2">
-		<h3 id="membership">Membership</h3>
-	    	<p id="signup"><em>Sign up for a Derrick Rose Fansite Membership!</em><br 
-	    	/><br />Get the MVP experience today!</p>
-	    	
+		<section id="membership_plans">
+		<table class="table">
+			<tr>
+				<th></th>
+				<th scope="col">The Starter</th>
+				<th scope="col">The MVP</th>
+			</tr>
+			<tr>
+				<th scope="row">Price</th>
+				<td>Free</td>
+				<td>$9.99/year</td>
+			</tr>
+			<tr class="stripe">
+				<th scope="row">Image Access</th>
+				<td>Image of the Day</td>
+				<td>Full Gallery</td>
+			</tr>
+			<tr>
+				<th scope="row">Articles Access</th>
+				<td>Column of the Day</td>
+				<td>Full Archive</td>
+			</tr>
+			<tr class="stripe">
+				<th scope="row">Newsletter</th>
+				<td>None</td>
+				<td>Included</td>
+			</tr>
+		</table>
+		<form id="signup_form" method="post" action="#">
+		<h4>Sign up to get your MVP experience today!</h4>
+		<p>* Denotes required field</p>
+			<div>
+				<label for="firstname">*First Name:</label>
+				<input type="text" name="firstname" id="firstname" tabindex="10" 
+				placeholder="Derrick" autofocus required/>
+			</div>
+			<div>
+				<label for="lastname">*Last Name:</label>
+				<input type="text" name="lastname" id="lastname" tabindex="20" 
+				placeholder="Rose" required/>
+			</div>
+			<div>
+				<label for="email">*Email:</label>
+				<input type="email" name="email" id="email" tabindex="30" 
+				placeholder="email@address.com" required/>
+			</div>
+			<div>
+				<label for="plan">Membership Level</label>
+			</div>
+			<div>
+				<select name="plan" id="plan">
+					<option>The MVP</option>
+					<option>The Starter</option>
+				</select>
+			</div>
+			<div>
+				<label for="review">Message to Derrick:<br></label>
+				<textarea name="review" id="review" tabindex="70" cols="45" rows="10" 
+				placeholder="Enter your message here..."></textarea>
+			</div>
+			<input type="submit" name="submit" class="submit" tabindex="80" value="Sign 
+			Up!"/>
+		</form>
 		</section>
 		<footer>
     	<!-- secondary navigation in footer -->

@@ -7,10 +7,7 @@
 
 /* ---------End Main Colors-------------*/
 
-
 /* ---Header Tag Styling---- */
-
-
 h1 {
 	padding: 2%;
 	width: 80%;
@@ -19,30 +16,25 @@ h1 {
 	margin: 0 0 1em 0;
 	margin-top: 10px;
 }
-
 h3 {
 	text-shadow: 1px 1px 1px #000000;
 	color: #FF0000;
 }
-
 /* ---End Header Tag Styling---- */
 
-
-/* ---Header Styling---- */
+/* ---Begin Header Styling---- */
 header {
-	font-family: Poller One, sans-serif, helvetica;
+	font-family: Poller One, helvetica, sans-serif;
 	color: #FFFFFF;
 	width: 100%;
 	font-size: 1.0em;
 	margin-top: 1%;
 }	
-
 /* ---End Header Styling---- */
-
 
 /* ---Body/Wrapper Styling---- */
 body {
-	font-family: Oxygen, sans-serif, helvetica;
+	font-family: Oxygen, helvetica, sans-serif;
 	font-size: 100%;
 	color: #000000;
 	max-width: 960px;
@@ -50,13 +42,11 @@ body {
 	background-image: url('../images/Bonus-Texture.jpg');
 	background-position: left;
 }
-
 #wrapper {
 	width: 100%;
-	background-color: black;
+	background-color: #000000;
 	margin: 0 auto;
 }
-
 /* ---End Body/Wrapper Styling---- */
 
 /* ---Navigation Styling--------------- */
@@ -68,11 +58,9 @@ body {
 	list-style: none;
 	background-color: #000000;
 }
-
 #nav li {
 	float: right; 
 }
-
 #nav li a {	
 	display: block;
 	padding: 8px 17%;
@@ -81,62 +69,41 @@ body {
 	color: #FFFFFF;
 	border-right: 1px solid #ccc; 
 }
-
 #nav li a:hover {
 	color: #FFFFFF;
 	background-color: #FF0000; 
 }
-
 /* ---End Navigation Styling--------------- */
 
-/*---Main CTA Styling----*/
+/*---BeginMain CTA Styling----*/
 #cta {
 	float: left;
 	opacity: .8;
 	max-width: 57.25%;
 }
-
 #cta img {
 	max-width: 100%;
 }
-
 aside {
 	float: right;
 	width: 33.86%;
 	color: #FFFFFF;
 	padding: 3%;
 	background: #000000;
-	/*background: -moz-linear-gradient(left,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 
-	53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#959595), 
-	color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), 
-	color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b));
-	background: -webkit-linear-gradient(left,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 
-	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
-	background: -o-linear-gradient(left,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 		
-	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
-	background: -ms-linear-gradient(left,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 
-	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
-	background: linear-gradient(left,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 	
-	53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);*/
 }
-
 /* ---End Main CTA Styling---- */
 
-
-/* ---Profile Styling--------------- */
+/* ---Begin Profile Styling--------------- */
 #profile {
-	font-size: .9em;
+	font-size: 1em;
 	clear: both;
 	padding: 2.5%;
 	margin-bottom: 1%;
 	background-color: #FFFFFF;
 }
-
 #profile ol {
 	list-style-type: none;
 }
-
 .profile {
 	column-count: 3;
 	-moz-column-count: 3;
@@ -144,13 +111,11 @@ aside {
 	padding: 2.5%;
 	background-color: #FFFFFF;
 }
-
 /* ---End Profile Styling--------------- */
 
-/* ---Image Gallery Styling--------------- */
-
+/* ---Begin Image Gallery Styling--------------- */
 #images {
-	font-size: .9em;
+	font-size: 1em;
 	padding: 2.5%;
 	background-color: #FFFFFF;
 }
@@ -165,7 +130,6 @@ aside {
 #gallery li {
 	margin: 2%;
 }
-
 #gallery li a {
 	float: left;
 	display: block;
@@ -173,24 +137,114 @@ aside {
 	border: 4px solid #000000;
 	width: 43.5%;
 	margin: 2%;
-	/*height: 175px;
-	width: 175px;*/
 }
-
 #gallery li img {
 	max-width: 100%;
 }
-
 #gallery li a:hover {
 	opacity: 1.3;
-	border-color: red;
+	border-color: #FF0000;
 }
-
 /* ---End Image Gallery Styling--------------- */
 
-
-/* ---Button Styling--------------- */
+/* ---Begin Button Styling--------------- */
 .button {
+	box-shadow: inset 0px 4px 3px 0px #f29c93;
+	background-color: #fe1a00;
+	border-radius: 6px;
+	border: 1px solid #d83526;
+	display: inline-block;
+	color: #FFFFFF;
+	font-family: Oxygen;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 3% 11%;
+	text-shadow: 1px 1px 0px #b23e35;
+}
+.button:hover {
+	background-color: #ce0101;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+/* ---End Button Styling--------------- */
+
+/* --- Begin Membership/Sign Up Section--------------- */
+#membership_plans {
+	height: 850px;
+	background-color: #FFFFFF;
+}
+#membership {
+	clear: both;
+	background-color: #FFFFFF;
+	padding: 2.5%;
+}
+/* ---End Membership/Sign Up Section --------------- */
+
+/* ---Begin Table Styling---------------------- */
+.table {
+	float: left;
+	border-collapse: collapse;
+	margin: 10.15% 0 3% 3%;
+	background: #FFF;
+}
+td, th {
+	border: 1px solid #000;
+	text-align: left;
+	padding: 2.5%;
+}
+th {
+	font-size: 1em;
+	color: #FFFFFF;
+	background: #000000;
+}
+.stripe {
+	background: #C0C0C0;
+}
+/* ---End Table Styling---------------------- */
+
+/* --- Begin Form Styling --------------------*/
+#signup_form {
+	float: right;
+	background: #C0C0C0;
+	border: 3px solid #000;
+	padding: 0 2% 2% 2%;
+	margin: 8% 3% 3% 3%;
+	width: 38%;
+}
+#signup_form h4 {
+	font-size: 1.2em;
+	color: #FF0000;
+}
+label {
+	font-weight: bold;
+	display: block;
+	margin: 1.25em 0 0;
+}
+input:focus {
+	border: 1px solid #FF0000;
+}
+input[type="text"], input[type="email"] {
+	clear: both;
+	border: 1px;
+	width: 65%;	
+	height: 2em;
+}
+textarea {
+	width: 80%;
+	height: 10em;
+	display: block;
+	margin-bottom: .25em;
+}
+select {
+	height: 2em;
+}
+/* --- End Form Styling --------------------*/
+
+/* --- Begin Submit Button Styling --------------------*/
+
+input.submit {
 	box-shadow: inset 0px 4px 3px 0px #f29c93;
 	background-color: #fe1a00;
 	border-radius: 6px;
@@ -198,69 +252,47 @@ aside {
 	display: inline-block;
 	color: #ffffff;
 	font-family: Oxygen;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	font-weight: bold;
-	padding: 3% 11%;
+	padding: 3% 9%;
 	text-shadow: 1px 1px 0px #b23e35;
-	
 }
-
-.button:hover {
+input.submit {
+	margin-top: 7%;
+}
+input.submit:hover {
 	background-color: #ce0101;
 }
-
-.button:active {
+input.submit:active {
 	position: relative;
 	top: 1px;
 }
-
-/* ---End Button Styling--------------- */
-
-
-
-/* ---Membership/Sign Up Section Placeholder--------------- */
-#wrapper2 {
-	background-color: #C0C0C0;
-
-}
-
-#membership {
-	clear: both;
-	padding: 2.5%;
-}
-
-#signup {
-	padding: 2.5%;
-}
-/* ---End Membership/Sign Up Section Placeholder--------------- */
+/* --- End Submit Button Styling --------------------*/
 
 /* ---Footer Styling--------------- */
 footer {
+	clear: both;
 	background-color: #000000;
 	padding: 1%;
 	color: #FFFFFF;
 }
-
 footer ul {
-		font-family: inherit;
-		padding: 2% 0;
-		list-style-type: none;
-	}
- 
-	footer li a {
-		display: block;
-		padding: 1% 3%;
-		color: #FFFFFF;
-		text-decoration: none;
-		line-height: 2em;
-		height: 2em;
-	}
-
+	font-family: inherit;
+	padding: 2% 0;
+	list-style-type: none;
+}
+ footer li a {
+	display: block;
+	padding: 1% 3%;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 2em;
+	height: 2em;
+}
 #disclaimer {
 	text-align: left;
 	color:#FFFFFF;
 }
-
 /* ---End Footer Styling--------------- */
 
 /* ---Begin Media Queries--------------- */
@@ -270,70 +302,81 @@ footer ul {
 	header {
 		font-size: .9em;
 	}
-	
 	nav {
 		font-size: .9em;
 	}
-	
 	aside {
 		font-size: .85em;
 		width: 37.555%;
 		padding: 2.5%;
 		margin-bottom: 1%;
 	}
-
+	#membership_plans {
+		height: 800px;
+	}
+	.table {
+		float: left;
+		font-size: .85em;
+		width: 45%;
+	}
+	#signup_form {
+		font-size: .85em;
+		float: right;
+		width: 38%;
+		padding: 0 2% 2% 2%;
+		margin: 8% 3% 3% 3%;
+	}
 	#membership, #signup, #profile, footer {
 		font-size: .9em;
 		width: 95%;	
 		padding: 3%;
 	}
-	
-	#wrapper2 {
-		background-color: #C0C0C0;
-		height: 5%;
-		margin-top: 1%;
-	}
 }
 /*---  End Media Query for full-size displays (desktop/laptop) ---*/
 
-
 /*---  Media Query for medium displays (tablets/readers/iPads) ---*/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-	
 	header {
 		padding-left: 1%;
 		font-size: .7em;
 	}
-	
 	nav {
 		font-size: .8em;
 	}
-	
 	aside {
 		font-size: .75em;
 		width: 37.555%;
 		padding: 2.5%;
 		margin-bottom: 1%;
 	}
-
 	#membership, #signup, #profile, #images, footer {
 		font-size: .75em;
 		width: 95%;	
 		padding: 3%;
 	}
-	
-	#wrapper2 {
-		background-color: #C0C0C0;
-		height: 5%;
-		margin-top: 1%;
+	#membership_plans {
+		height: 850px;
+		padding: 5% 0 0 0;
 	}
-
+	.table {
+		float: none;
+		width: 49.5%;
+		margin: 0 0 3% 3%;
+	}
+	td, th {
+		font-size: .8em;
+	}
+	#signup_form {
+		float: left;
+		width: 45%;
+		margin: 3%;
+		font-size: .8em;
+	}
 	footer ul {
 		font-family: inherit;
 		list-style: none;
 		padding: 2% 0;
 	}
- 
 	footer li a {
 		display: block;
 		padding: 1% 3%;
@@ -344,14 +387,10 @@ footer ul {
 		line-height: 2em;
 		height: 2em;
 	}
-
 	#disclaimer {
 		font-size: .85em;
 	}
-
-	
 }
-
 /*--- End Media Query for medium displays (tablets/readers/iPads) ---*/
 
 /*---  Media Query for smaller displays (smartphone) ---*/
@@ -359,42 +398,39 @@ footer ul {
 	header {
 		font-size: .6em;
 	}
-	
 	nav {
 		display: none;
 	}
-	
 	body {
 		letter-spacing: 0.1em;
 		letter-spacing: 0.1em;
+		background-image: none;
 	}
-	
 	aside {
 		font-size: .75em;
 		width: 93%;
 		padding: 3.5%;
 		margin-bottom: 1%;
 	}
-	
 	#cta {
 		display: none;
 	}
-	
 	.button {
 		margin-bottom: 7%;
 		font-size: .75em;
 	}
-	
 	#membership, #signup, #profile, #images, footer {
 		font-size: .65em;
 		width: 95%;	
 		padding: 3%;
 	}
-	
+	#membership_plans {
+		height: 825px;
+		padding: 3% 0 0 0;
+	}
 	#profile {
 		width: 95%;
 	}
-	
 	.profile {
 		width: 95%;
 		column-count: 1;
@@ -402,23 +438,39 @@ footer ul {
 		-webkit-column-count: 1;
 		line-height: 200%;
 	}
-	
 	#gallery li a{
 		border: 4px solid #000000;
 		margin: 1%;
 	}
-	
 	#gallery li a:hover {
 		opacity: 1.3;
-		border: none;
 	}
-
+	.table {
+		float: none;
+		width: 90%;
+	}
+	td, th {
+		font-size: .675em;
+	}
+	th {
+		padding: 1%;
+	}
+	#signup_form {
+		float: left;
+		width: 85%;
+		margin: 3%;
+		font-size: .675em;
+	}
+	input.submit {
+		font-size: 1.3em;
+		font-weight: bold;
+		padding: 5% 15%;
+	}
 	footer ul {
 		font-family: inherit;
 		list-style: none;
 		padding: 2% 0;
 	}
- 
 	footer li a {
 		display: block;
 		padding: 5% 3%;
@@ -432,13 +484,10 @@ footer ul {
 		border-top: 1px solid #C0C0C0;
 		border-bottom: 1px solid #C0C0C0;
 	}
-	
 	#disclaimer {
 		font-size: .75em;
 	}
-
 }
-
 /*--- End Media Query for smaller displays ---*/
 
 /* ---End Media Queries--------------- */
