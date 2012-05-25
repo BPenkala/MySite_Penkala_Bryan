@@ -186,8 +186,9 @@ aside {
 .table {
 	float: left;
 	border-collapse: collapse;
-	margin: 10.15% 0 3% 3%;
+	margin: 10.15% 0 3% 2%;
 	background: #FFF;
+	width: 45%;
 }
 td, th {
 	border: 1px solid #000;
@@ -233,7 +234,6 @@ input[type="text"], input[type="email"] {
 }
 textarea {
 	width: 80%;
-	height: 10em;
 	display: block;
 	margin-bottom: .25em;
 }
